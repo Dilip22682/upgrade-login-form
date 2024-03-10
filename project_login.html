@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create login page</title>
+    <style>
+      body {
+        margin-top: 60px;
+        margin-left: 60px;
+      }
+      .bind {
+        width: 993px;
+        height: auto;
+        display: flex;
+        border-radius: 23px;
+      }
+      .box1 {
+        height: 600px;
+        width: 500px;
+        border: 3px solid;
+        border-radius: 5%;
+       background: rgb(2,0,36);
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,93,1) 18%, rgba(0,212,255,1) 100%);
+      }
+      .box1 h1 {
+        font-size: 38px;
+        margin: 158px 0px 0px 70px;
+        color: white;
+      }
+      .box1 h3 {
+        margin: 55px 0px 0px 77px;
+        font-size: 28px;
+        color: white;
+      }
+      .box2 {
+        height: 600px;
+        width: 500px;
+        border: 3px solid black;
+
+        border-radius: 5%;
+      }
+      .box2 input {
+        margin: 64px -55px -40px 50px;
+        width: 160px;
+        height: 32px;
+        padding: 8px 0px 0px 22px;
+        border-radius: 4px;
+      }
+
+      *input r1 {
+        height: 30px;
+        width: 30px;
+      }
+
+      .xyz input {
+        width: 70%;
+        border-radius: 4px;
+        margin: 16px 55px;
+      }
+      .kiss select {
+        width: 368px;
+        height: 42px;
+        margin: 24px 5px -70px 52px;
+        border-radius: 4px;
+      }
+      .bind p {
+        margin: -41px 0px 5px 136px;
+      }
+      .bind a {
+        margin-left: 30%;
+      }
+      .xyz button {
+        width: 371px;
+        height: 43px;
+        margin: 37px 49px;
+        background-color: #6d0687;
+        border-radius: 4px;
+        box-shadow: 10px 12px 5px;
+      }
+      button:hover {
+        background-color: red;
+        height: 50px;
+        width: 300px;
+      }
+      select:nth-child(1){
+        padding-left: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bind">
+      <div class="box1">
+        <h1>Get Free career counselling from upGrade experts!</h1>
+        <h3>Book a session with an industry professional today!</h3>
+      </div>
+
+      <div class="box2">
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+        <br /><br />
+        <div class="kiss">
+          <select name=" " id="w1">
+            <option value="hidden">select field</option>
+            <option value="">B.Tech</option>
+            <option value="">B.E</option>
+            <option value="">BSc</option>
+            <option value="">MSc</option>
+            <option value="">Bca</option>
+          </select>
+        </div>
+        <br /><br />
+        <div class="xyz">
+          <input type="email" placeholder="Enter your email address" id="r1" />
+          <br /><br />
+          <input type="mobile" placeholder="Mobile No." id="r2" />
+          <br /><br />
+          <button>submit</button>
+        </div>
+        <br />
+
+        <p>By clicking submit you Agree to</p>
+        <a href="https://www.upgrad.com/"><u>UpGrade Term & Condtions</u> </a>
+      </div>
+    </div>
+  </body>
+</html>
